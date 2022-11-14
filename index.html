@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1 id="dash"><img src="./img/view-dashboard-outline-black.png" alt="" id="dash_icon">Dashboard</h1>
+            <div class="sidebar_options">
+                <button id="home"><img src="./img/home.png" alt="">Home</button>
+                <button id="profile"><img src="./img/account-details-outline.png" alt="">Profile</button>
+                <button id="messages"><img src="./img/message-reply-text.png" alt="">Messages</button>
+                <button id="history"><img src="./img/history.png" alt="">History</button>
+                <button id="tasks"><img src="./img/calendar-check.png" alt="">Tasks</button>
+                <button id="communities"><img src="./img/account-group.png" alt="">Communities</button>
+            </div>
+            <div class="sidebar_settings">
+                <button id="settings"><img src="./img/cog-outline.png" alt="">Settings</button>
+                <button id="support"><img src="./img/crosshairs-question.png" alt="">Contact Us</button>
+            </div>
+        </div>
+        <header>
+            <div id="search_field">
+                <button id="search" type="button"><img src="./img/magnify.png" alt="" id="search_icon"></button> 
+                <input type="text" name="search">
+            </div>
+            <div id="account_field">
+                <button id="notifications"><img src="./img/bell-ring-black.png" alt="" id="notification_icon"></button>
+                <button id="avatar_button"><img src="./img/avatar.jpg" alt="" id="avatar_icon"></button>
+                <h3 id="username">Kazuma Kiryu</h3>
+            </div>
+            <div id="greetings">
+                <img src="./img/avatar.jpg" alt="" id="avatar_icon">
+                <h2>Hi there,</h2>
+                <h3>Kazuma Kiryu (@kazuma_kiryu)</h3>
+            </div>
+            <div class="greetings_buttons">
+                    <button id="new" type="button">New</button>
+                    <button id="upload" type="button">Upload</button>
+                    <button id="share" type="button">Share</button>
+                </div>
+        </header>
+        <div class="content">
+            <h2>Your Projects</h2>
+            <div class="projects">
+                <div id="project 1"><h3>Super cool project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div id="project_actions">
+                    <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="project 2"><h3>Another cool project</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia aliquid expedita, quo repudiandae reprehenderit porro quae aspernatur animi eligendi eveniet voluptatibus corrupti sequi optio.</p>
+                    <div id="project_actions">
+                        <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="project 3"><h3>Ad blocker</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    <div id="project_actions">
+                        <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="project 4"><h3>Tetris</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div id="project_actions">
+                        <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="project 5"><h3>The Valley Studio Website</h3> 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus assumenda iusto vero quia sint fuga tenetur aperiam.</p>
+                    <div id="project_actions">
+                        <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="project 6"><h3>Calculator</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div id="project_actions">
+                        <a href="/" id="project_source"><img src="./img/source-repository.png" alt=""></a>
+                        <button id="project_add_to_favorites" type="button"><img src="./img/star-shooting-outline.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <h2>Announcements</h2>
+            <div class="announcements">
+                <div id="announcement 1"><h4>Site Maintenance</h4>
+                    <p>We will perform technical site maintenance from 2PM to 4PM EST</p>
+                    <p id="date">Date</p>
+                </div>
+                <div id="announcement 2"><h4>Community Share Day</h4>
+                    <p>We are happy to announce the Community Share Day!</p>
+                    <p><a href="/">Join now!</a></p>
+                    <p id="date">Date</p>
+                </div>
+                <div id="announcement 3"><h4>Updated Privacy Policy</h4>
+                    <p>We have updated our privacy policy.</p>
+                    <p><a href="/">Learn more</a></p>
+                    <p id="date">Date</p>
+                </div>
+            </div>
+            <h3 id="trending_header">Trending</h3>
+            <div class="trending">
+                <img src="./img/calculator-outline-filled.png" alt="" id="trend_avatar1">
+                <div id="trend_user_1">
+                    <h4>@justez</h4>
+                    <p>Calculator</p>
+                </div>
+
+                <img src="./img/beer-svgrepo-com.svg" alt="" id="trend_avatar2">
+                <div id="trend_user_2">
+                    <h4>@efes</h4>
+                    <p>Digital Brewery</p>
+                </div>
+
+                <img src="./img/excalibur.png" alt="" id="trend_avatar3">
+                <div id="trend_user_3">
+                    <h4>@excalibur</h4>
+                    <p>Online Sword Market</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
